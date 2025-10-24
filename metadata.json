@@ -1,0 +1,7 @@
+{
+  "name": "Corporate Compass AI",
+  "description": "An intelligent application that leverages AI to identify and list companies based on their domain, location, and development stage. It generates a downloadable Excel-compatible list of established, developing, or proposed corporate entities and investments.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
