@@ -33,9 +33,10 @@ The deployment is handled by a GitHub Actions workflow that:
    npm install
    ```
 
-2. Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key:
+2. Create a `.env.local` file from the example and set your Gemini API key:
    ```bash
-   GEMINI_API_KEY=your_api_key_here
+   cp .env.local.example .env.local
+   # Then edit .env.local and replace 'your_api_key_here' with your actual API key
    ```
 
 3. Run the app:
